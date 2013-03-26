@@ -2,8 +2,8 @@
 
 namespace Fuel\Migrations;
 
-class Create_users {
-
+class Create_users
+{
 	public function up()
 	{
 		\DBUtil::create_table('users', array(

@@ -2,8 +2,8 @@
 
 namespace Fuel\Migrations;
 
-class Create_comments {
-
+class Create_comments
+{
 	public function up()
 	{
 		\DBUtil::create_table('comments', array(
